@@ -1,0 +1,11 @@
+Group K: Project 3
+
+training_output folder
+- contains visualisations and data from training
+
+code folder
+- project_3 full implementation (static margin, dynamic margin) in ipynb
+- load_data.py: load data into npy files (for faster loading during training), ran once before training model  
+- train_model.py: train model & eval
+- batch_gen.py: contains batch generator function
+- eval.py: contains evaluation functions (angle histogram and confusion matrix), plots data output and saves them
